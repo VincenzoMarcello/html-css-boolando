@@ -184,12 +184,11 @@ footer h3 {
 footer i {
   color: white;
   font-size: 1.3rem;
-  padding: 4px;
 }
 
 .text-icon {
   color: white;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
