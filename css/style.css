@@ -68,6 +68,15 @@ body {
 .bg-orange {
   background-color: #ff6900;
   min-height: 70px;
+
+  /* Per metter la barra fissa nella pagina */
+
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  z-index: 1;
 }
 
 .bg-deb {
@@ -92,7 +101,7 @@ nav div > a {
 /* MAIN */
 
 main {
-  padding-top: 60px;
+  padding-top: 130px;
 }
 
 .card {
@@ -127,4 +136,8 @@ main {
 
 .heart:hover {
   color: #ff0000;
+}
+
+a:hover {
+  text-decoration: underline;
 }
