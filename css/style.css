@@ -60,7 +60,7 @@ body {
 .sale-position {
   position: absolute;
   left: 0;
-  bottom: 105px;
+  bottom: 145px;
 }
 
 /* HEADER */
@@ -106,6 +106,7 @@ main {
 
 .card {
   width: 32%;
+  padding-bottom: 2.5rem;
   min-height: 700px;
   position: relative;
   border: 1px dashed black;
@@ -153,4 +154,40 @@ main {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* FOOTER */
+
+.bg-black {
+  background-color: #1a1a1a;
+  min-height: 100px;
+}
+
+.bg-deb-f {
+  min-height: 100px;
+}
+
+footer div > a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin: 0 0.5rem 0 0;
+}
+
+footer h3 {
+  color: white;
+  padding-bottom: 5px;
+}
+
+footer i {
+  color: white;
+  font-size: 1.3rem;
+  padding: 4px;
+}
+
+.text-icon {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
