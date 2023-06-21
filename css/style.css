@@ -41,12 +41,14 @@ body {
 .sale {
   color: white;
 
-  font-size: 0.9rem;
   font-weight: bold;
 
   padding: 0.2rem 0.6rem;
 }
 
+.card span {
+  font-size: 0.9rem;
+}
 .red {
   background-color: #ff0000;
 }
@@ -98,4 +100,13 @@ nav div > a {
 
 .main-image {
   max-width: 100%;
+}
+
+.price-after {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.price-before {
+  text-decoration: line-through;
 }
