@@ -34,6 +34,33 @@ body {
   align-items: center;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+.sale {
+  color: white;
+
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  padding: 0.2rem 0.6rem;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.green {
+  background-color: #008000;
+}
+
+.sale-position {
+  position: absolute;
+  left: 0;
+  bottom: 105px;
+}
+
 /* HEADER */
 
 .bg-orange {
@@ -62,9 +89,10 @@ nav div > a {
 
 /* MAIN */
 
-.br-debug {
+.card {
   width: 32%;
   min-height: 700px;
+  position: relative;
   border: 1px dashed black;
 }
 
