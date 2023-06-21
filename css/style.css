@@ -115,6 +115,19 @@ main {
   max-width: 100%;
 }
 
+.second-image {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+.second-image:hover {
+  opacity: 1;
+}
+
 .price-after {
   color: #ff0000;
   font-weight: bold;
