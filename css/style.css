@@ -5,3 +5,26 @@
   margin: 0;
   padding: 0;
 }
+
+/* UTILS */
+
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* HEADER */
+
+.bg-orange {
+  background-color: #ff6900;
+  max-height: 70px;
+}
